@@ -1,5 +1,5 @@
 ---
-title: 'Push Button'
+title: 'Push Buttons'
 taxanomy:
     tags:
         - docs
