@@ -17,8 +17,9 @@ In ArBrd1 LCD pins are connected with the following Arduino pins. You can only o
 | RS | D4 |
 | EN | D5 |
 ### Example :
-Interface LCD with Arduino
-```arduino
+Interface LCD with Arduino  
+
+```c
 /*
   LiquidCrystal Library - Hello World
   This sketch prints "HatchnHack!" to the LCD

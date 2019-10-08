@@ -10,7 +10,7 @@ Board 1 consists of one Red, one Green and one Blue LED. They are covered with a
 
 #### Example 1 : Blinky
 Turn on Red LED for 1 second and then turn it off for 1 second, repeatedly.  
-```arduino
+```c
 int Led_pin = 11 ;  
 
 // the setup function runs once when you press reset or power the board

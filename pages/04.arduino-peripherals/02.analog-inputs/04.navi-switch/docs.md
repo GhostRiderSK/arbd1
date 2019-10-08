@@ -24,8 +24,9 @@ Navi Switch value at Arduino input pin
 | LEFT | 0.5 | 512 |
 | UP | 0 | 0 |
 ### Example :
-Interface Navi switches with Arduino and detect which button is pressed.
-```arduino
+Interface Navi switches with Arduino and detect which button is pressed.  
+
+```c
 int Switch_pin = A1;       
 int switch_value;           		    //To store the current push button value 
 int prev_switch_value;      		    //To store the prev value of push buttons

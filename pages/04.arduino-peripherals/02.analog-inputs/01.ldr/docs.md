@@ -10,7 +10,7 @@ Variation in resistance with changing light intensity. LDR is connected with pin
 As per shown in Figure LDR is connected in such a way that it forms a voltage divider with a 10k resistor(why?). With a change in LDR resistance value, the voltage at A0 will change and thus indicates the variation in the intensity of light w.r.t. to voltage.  
 ### Example : 
 Interface LDR with Arduino. Bring the torch or any light near to the sensor. Check the change in serial monitor. Now cover the LDR with hand and observe the change in readings.
-```arduino
+```c
 //LDR with Arduino
 
 int LDR_pin = A0; 

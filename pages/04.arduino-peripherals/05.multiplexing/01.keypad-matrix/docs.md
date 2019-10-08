@@ -19,7 +19,7 @@ Interface Keypad interface with Arduino.
 6. Now, we give the HIGH voltage to each row one by one and check the input voltage at each column pin. 
 7. Thus we detect the push button which is pressed according to the row which is driven High and the column at which the input voltage is High.  
 
-```arduino
+```c
 int R[4] = {10,11,12,13};       			// Rows of the Keypad Matrix
 int C[4] = {6,7,8,9};           			// Columns of the keypad Matrix 
 int row  = 0;                  			//To store which rows button is pressed

@@ -10,7 +10,7 @@ PWM has many applications such as controlling servos and speed controllers, limi
 Arduino has eight bit default PWM which means that Arduino PWM duty cycle can vary from *0* to *2<sup>8</sup>* i.e *255* value and thus resultant analog voltage can vary from *0* to *VCC* in 256 steps.
 ### Exercise :
 Led fading with PWM
-```arduino
+```c
 int led_pin = 11; 
 int led_value = 0;  //To store the current intensity of led. 
 void setup() 

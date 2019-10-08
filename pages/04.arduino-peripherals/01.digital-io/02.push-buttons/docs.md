@@ -10,7 +10,7 @@ Whenever you press a button, it does not settle down to other configuration. It 
 Removing this bouncing or taking care of this bouncing while sampling the input is called de-bouncing.  
 ### Example 2 :
 Make a program such that Red led goes on whenever the user presses the “UP” button and it goes off whenever a user releases the button.
-```arduino
+```c
 int buttonPin = A1; //Push Button 
 int ledPin = 11;    //LED 
 
