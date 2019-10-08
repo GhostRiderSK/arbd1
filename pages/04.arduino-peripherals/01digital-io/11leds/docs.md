@@ -1,16 +1,19 @@
 ---
-title: 'LEDs'
+title: LEDs
+taxonomy:
+    category:
+        - docs
+visible: true
 taxanomy:
     tags:
         - docs
-visible: true
 ---
 
 Board 1 consists of one Red, one Green and one Blue LED. They are covered with a diffuser to appear as one RGB LED source. All LEDs are connected with PWM pins(will discuss about PWM pins later),  so that their intensity can be controlled. Red LED is connected with D11, Blue colour LED is connected with D10 and Green LED is connected with D9. See Figure for connections.
 
 #### Example 1 : Blinky
 Turn on Red LED for 1 second and then turn it off for 1 second, repeatedly.  
-```arduino
+``` c
 int Led_pin = 11 ;  
 
 // the setup function runs once when you press reset or power the board
