@@ -13,7 +13,8 @@ There are five 10xx Omron switches on Board 1. These five push buttons are conne
 3. Voltage at A1 when “LEFT” button is pressed = 0.5Vcc
 3. Voltage at A1 when “UP” button is pressed = 0Vcc
 
-Navi Switch value at Arduino input pin
+Navi Switch value at Arduino input pin  
+
 | Push Button | Voltage(Vcc) | ADC Value |
 | ----------- | ------------ | --------- |
 | No Button is Pressed | 1 | 1023 |

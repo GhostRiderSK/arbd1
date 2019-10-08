@@ -71,7 +71,8 @@ void loop() {
         }
     }
 }
-```
+```  
+
 #### Exercise :
 + Interface keypad matrix and lcd with Arduino such that whenever you press any key, the number or symbol display on the lCD.
 + Make a calculator with the help of keypad matrix, lcd and Navi switches. 
