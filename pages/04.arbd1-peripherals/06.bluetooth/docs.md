@@ -1,9 +1,13 @@
 ---
 title: 'Bluetooth (HC-05)'
+taxonomy:
+    category:
+        - docs
+visible: true
 taxanomy:
     category: docs
-visible: true
 ---
+
 HC-05 is a Bluetooth device used for wireless communication with Bluetooth enabled devices (like smartphones). It communicates with microcontrollers using serial communication (USART).  
 **Pin Connections**  
 
