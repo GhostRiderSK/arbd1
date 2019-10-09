@@ -1,8 +1,7 @@
 ---
 title: 'PWM'
 taxanomy:
-    tags:
-        - docs
+    category: docs
 visible: true
 ---
 PWM is a technique for getting analog results with digital means.  PWM works as a switch which can vary the on or off time of a rectangular wave. When the PWM signal is passed through a low pass filter the signal is averaged out in such a way that the average signal value is equal to the duty cycle i.e on time of PWM signal. Thus working as an analog signal which can vary from ‘0’ to ‘VCC’.  

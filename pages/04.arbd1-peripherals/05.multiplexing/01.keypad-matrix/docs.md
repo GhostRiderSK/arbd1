@@ -1,8 +1,7 @@
 ---
 title: '4x4 Keypad Matrix'
 taxanomy:
-    tags:
-        - docs
+    category: docs
 visible: true
 ---
 Keypad matrix is a superb example of multiplexing. In keypad we interface 16 keys with 8 pins.  

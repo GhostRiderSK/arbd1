@@ -1,8 +1,7 @@
 ---
 title: 'LCD'
 taxanomy:
-    tags:
-        - docs
+    category: docs
 visible: true
 ---
 ArBrd1 has an on-board Liquid Crystal Display (LCD) that can be used to display alphanumeric characters. The LCD can operate in 4-bit and 8-bit mode. In 4-bit mode, the data is transferred as a nibble with most-significant nibble first then the least-significant. In this mode, only 4 of the data pins are used. In 8-bit mode, the data is transferred as a whole byte. In 8-bit, the data transfer time is reduced to half of that in 4-bit mode but as a trade-off, 4 extra pins are used.  

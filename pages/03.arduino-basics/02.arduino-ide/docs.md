@@ -1,8 +1,7 @@
 ---
 title: 'Getting Started With Arduino IDE'
 taxonomy:
-    category:
-        - docs
+    category: docs
 visible: true
 ---
 

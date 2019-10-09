@@ -1,8 +1,7 @@
 ---
 title: 'Push Buttons'
 taxanomy:
-    category:
-        - docs
+    category: docs
 visible: true
 ---
 There are five 10xx Omron switches on ArBrd1. Switches can have two states **_open_** or **_closed_**. The **_UP_** button works as a digital input switch which gives **_LOW_** i.e 0 volts when pressed and **_HIGH_** i.e. *5* volts when not pressed. This **_UP_** button is connected to _A1_  pin of Arduino.  

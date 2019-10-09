@@ -1,8 +1,7 @@
 ---
 title: 'Experiments List'
 taxonomy:
-    category:
-        - docs
+    category: docs
 visible: true
 ---
 

@@ -1,8 +1,7 @@
 ---
 title: 'Arduino Nano'
 taxonomy:
-    category:
-        - docs
+    category: docs
 visible: true
 ---
 

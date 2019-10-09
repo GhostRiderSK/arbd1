@@ -1,8 +1,7 @@
 ---
 title: 'Digital I/O'
 taxanomy:
-    category:
-        - docs
+    category: docs
 visible: true
 ---
 When a controller is trying to communicate with the real world, the most simple way of talking is in the form of “True” or “False” i.e “High” or “Low” in the controller language.  

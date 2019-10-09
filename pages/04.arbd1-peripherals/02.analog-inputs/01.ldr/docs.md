@@ -1,8 +1,7 @@
 ---
 title: 'LDR'
 taxanomy:
-    category:
-        - docs
+    category: docs
 visible: true
 ---
 An LDR is a component that has a (variable) resistance that changes with the light intensity that falls upon it. This allows them to be used in light sensing circuits.  
