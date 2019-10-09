@@ -1,9 +1,13 @@
 ---
-title: 'Charlieplexing'
+title: Charlieplexing
+taxonomy:
+    category:
+        - docs
+visible: true
 taxanomy:
     category: docs
-visible: true
 ---
+
 Charlieplexing is a LED multiplexing technique used to drive a large number of LEDs using only few pins. With this technique n(n − 1) LEDs can be controlled just by using n pins of a microcontroller. It uses 3-State Logic: HIGH(1), LOW(0) and High-Z or High Impedance (Z). To switch on any LED its corresponding pins are driven High and Low accordingly and all others pins are in High-Z state. All the LEDs cannot be switched on simultaneously.  
 Following pin configurations are given to switch on any charlieplexed led  
 
