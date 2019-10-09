@@ -1,5 +1,7 @@
 ---
 title: 'ARBD1 Peripherals'
+taxonomy:
+    category: docs
 taxanomy:
     category: docs
 ---
