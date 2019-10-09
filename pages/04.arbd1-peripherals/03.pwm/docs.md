@@ -1,9 +1,13 @@
 ---
-title: 'PWM'
+title: PWM
+taxonomy:
+    category:
+        - docs
+visible: true
 taxanomy:
     category: docs
-visible: true
 ---
+
 PWM is a technique for getting analog results with digital means.  PWM works as a switch which can vary the on or off time of a rectangular wave. When the PWM signal is passed through a low pass filter the signal is averaged out in such a way that the average signal value is equal to the duty cycle i.e on time of PWM signal. Thus working as an analog signal which can vary from ‘0’ to ‘VCC’.  
 PWM has many applications such as controlling servos and speed controllers, limiting the effective power of motors and LEDs.  
 Arduino has eight bit default PWM which means that Arduino PWM duty cycle can vary from *0* to *2<sup>8</sup>* i.e *255* value and thus resultant analog voltage can vary from *0* to *VCC* in 256 steps.
