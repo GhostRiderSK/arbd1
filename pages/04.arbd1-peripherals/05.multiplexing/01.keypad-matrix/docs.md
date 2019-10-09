@@ -1,9 +1,13 @@
 ---
 title: '4x4 Keypad Matrix'
+taxonomy:
+    category:
+        - docs
+visible: true
 taxanomy:
     category: docs
-visible: true
 ---
+
 Keypad matrix is a superb example of multiplexing. In keypad we interface 16 keys with 8 pins.  
 In Keypad, total number of rows required is &radic;(16) = 4.  
 Total number of columns required is (16)/(rows) = 4.  
