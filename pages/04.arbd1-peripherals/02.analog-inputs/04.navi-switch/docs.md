@@ -1,9 +1,13 @@
 ---
 title: 'Navigation Switches'
+taxonomy:
+    category:
+        - docs
+visible: true
 taxanomy:
     category: docs
-visible: true
 ---
+
 There are five 10xx Omron switches on Board 1. These five push buttons are connected with an analog input pin in such a way that whenever you press a different button, you get a different voltage and thus detect which button is pressed. This configuration is used when you want to interface multiple push button with a single pin. Navi switches are connected to A1(Analog pin 1) of Arduino.  
 1. Voltage at A1 when no button is pressed = VCC i.e. 5V
 2. Voltage at A1 when “DOWN” button is pressed = 0.8Vcc
