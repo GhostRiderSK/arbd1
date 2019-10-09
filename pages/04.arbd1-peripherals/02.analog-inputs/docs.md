@@ -1,7 +1,7 @@
 ---
 title: 'Analog Inputs'
 taxanomy:
-    tags:
+    category:
         - docs
 visible: true
 ---

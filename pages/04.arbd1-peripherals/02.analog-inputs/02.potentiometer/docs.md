@@ -1,7 +1,7 @@
 ---
 title: 'Potentiometer'
 taxanomy:
-    tags:
+    category:
         - docs
 visible: true
 ---

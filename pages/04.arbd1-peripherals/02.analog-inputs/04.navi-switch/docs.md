@@ -1,7 +1,7 @@
 ---
 title: 'Navigation Switches'
 taxanomy:
-    tags:
+    category:
         - docs
 visible: true
 ---

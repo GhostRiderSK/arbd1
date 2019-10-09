@@ -1,7 +1,7 @@
 ---
 title: 'DHT11'
 taxanomy:
-    tags:
+    category:
         - docs
 visible: true
 ---

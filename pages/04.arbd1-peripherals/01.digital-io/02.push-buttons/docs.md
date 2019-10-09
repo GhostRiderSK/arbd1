@@ -1,7 +1,7 @@
 ---
 title: 'Push Buttons'
 taxanomy:
-    tags:
+    category:
         - docs
 visible: true
 ---

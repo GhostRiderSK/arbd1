@@ -1,7 +1,7 @@
 ---
 title: 'LDR'
 taxanomy:
-    tags:
+    category:
         - docs
 visible: true
 ---

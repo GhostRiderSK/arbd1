@@ -1,7 +1,7 @@
 ---
 title: 'Digital I/O'
 taxanomy:
-    tags:
+    category:
         - docs
 visible: true
 ---
