@@ -1,5 +1,6 @@
 ---
 title: '4x4 Keypad Matrix'
+media_order: hatchnhack_keypad_matrix.png
 taxonomy:
     category:
         - docs
@@ -13,6 +14,7 @@ In Keypad, total number of rows required is &radic;(16) = 4.
 Total number of columns required is (16)/(rows) = 4.  
 Thus the total number of pins required are (R+C) = 8.  
 Thus with this method of multiplexing we can interface N<sup>2</sup> leds or push button by 2N pins.
+![hatchnhack_keypad_matrix](hatchnhack_keypad_matrix.png?classes=caption "ARBD1 Keypad Matrix")
 ### Example :
 Interface Keypad interface with Arduino.
 1. We have four rows and four columns
