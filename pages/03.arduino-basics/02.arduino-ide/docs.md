@@ -9,8 +9,8 @@ visible: true
 
 Follow the steps to install and run your first program on ARBD1
 1. Install Arduino IDE from [Arduino Software](https://www.arduino.cc/en/Main/Software)
-![](Hatchnhack_Arduino_Ide.PNG)
 3. Arduino IDE looks like this:
+![Hatchnhack Ardhuino Ide](Hatchnhack_Arduino_Ide.PNG)
     + Setup() function runs once when you press reset or power the board.
     + loop() function runs repeatedly.
 4. Select Board as “Arduino Nano” in the  tools section. 
