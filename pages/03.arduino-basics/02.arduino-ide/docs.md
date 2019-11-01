@@ -10,9 +10,9 @@ visible: true
 Follow the steps to install and run your first program on ARBD1
 1. Install Arduino IDE from [Arduino Software](https://www.arduino.cc/en/Main/Software)
 3. Arduino IDE looks like this:
-![Hatchnhack Ardhuino Ide](Hatchnhack_Arduino_Ide.PNG)
     + Setup() function runs once when you press reset or power the board.
     + loop() function runs repeatedly.
+![Hatchnhack Ardhuino Ide](Hatchnhack_Arduino_Ide.PNG)
 4. Select Board as “Arduino Nano” in the  tools section. 
 5. Select Processor as ATMEGA328P.
 6. Connect the Board with your Laptop using the USB Cable.
