@@ -1,11 +1,14 @@
 ---
 title: 'Arduino Nano'
+media_order: Hatchnhack_Arduino_Nano.png
 taxonomy:
-    category: docs
+    category:
+        - docs
 visible: true
 ---
 
 The controller board used in ARBD1 is Arduino Nano. Arduino Nano uses ATMEGA328/ATMEGA168 microcontroller. It has 14 digital I/O pins, 8 analog pins and 6 PWM pins among the digital pins. The complete specifications of Arduino pins are described below.  
+![Hatchnhack Arduino Nano](Hatchnhack_Arduino_Nano.png)
 #### Arduino Nano specifications
 |   |   |
 | - | - |
