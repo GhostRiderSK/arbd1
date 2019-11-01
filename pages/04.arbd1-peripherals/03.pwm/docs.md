@@ -42,7 +42,7 @@ void loop()
 ```
 ### Example :
 Control the intensity of led using potentiometer.
-```arduino
+```c
 int led_pin = 9; 
 int pot_pin = A6; 
 int pot_value;                         //To store the potentiometer value at Analog pin A6 
