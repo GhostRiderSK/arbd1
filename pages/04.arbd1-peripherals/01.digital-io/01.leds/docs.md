@@ -9,7 +9,7 @@ visible: true
 
 ARBD 1 consists of one Red, one Green and one Blue LED. They are covered with a diffuser to appear as one RGB LED source. All LEDs are connected with PWM pins(will discuss about PWM pins later),  so that their intensity can be controlled. Red LED is connected with D11, Blue colour LED is connected with D10 and Green LED is connected with D9. See Figure for connections.
 
-![hatchnhack_rgb_led_schematic](hatchnhack_led_schematic.png)
+![hatchnhack_rgb_led_schematic](hatchnhack_led_schematic.png?classes=caption "ARBD1 RGB LEDs")
 
 #### Example 1 : Blinky
 Turn on Red LED for 1 second and then turn it off for 1 second, repeatedly.  
