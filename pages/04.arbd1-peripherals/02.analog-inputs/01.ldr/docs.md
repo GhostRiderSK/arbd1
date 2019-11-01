@@ -1,5 +1,6 @@
 ---
 title: LDR
+media_order: hatchnhack_ldr_schematic.png
 taxonomy:
     category:
         - docs
@@ -8,9 +9,10 @@ taxanomy:
     category: docs
 ---
 
-An LDR is a component that has a (variable) resistance that changes with the light intensity that falls upon it. This allows them to be used in light sensing circuits.  
+An LDR is a component that has a (variable) resistance that changes with the light intensity that falls upon it. This allows them to be used in light sensing circuits.
 Variation in resistance with changing light intensity. LDR is connected with pin “A0” of Arduino pin.  
-As per shown in Figure LDR is connected in such a way that it forms a voltage divider with a 10k resistor(why?). With a change in LDR resistance value, the voltage at A0 will change and thus indicates the variation in the intensity of light w.r.t. to voltage.  
+![hatchnhack_ldr_schematic](hatchnhack_ldr_schematic.png?classes=caption "ARBD1 LDR")
+As per shown in Figure LDR is connected in such a way that it forms a voltage divider with a 1k resistor(why?). With a change in LDR resistance value, the voltage at A0 will change and thus indicates the variation in the intensity of light w.r.t. to voltage.  
 ### Example : 
 Interface LDR with Arduino. Bring the torch or any light near to the sensor. Check the change in serial monitor. Now cover the LDR with hand and observe the change in readings.
 ```c
