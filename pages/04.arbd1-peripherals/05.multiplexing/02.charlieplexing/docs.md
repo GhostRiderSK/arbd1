@@ -14,6 +14,7 @@ Charlieplexing is a LED multiplexing technique used to drive a large number of L
 ![hatchnhack_charlieplexing_leds](hatchnhack_charlieplexing_leds.png?classes=caption "ARBD1 Charlieplexed LEDs")
 
 Following pin configurations are given to switch on any charlieplexed led  
+
 | LED No | A2 | A3 | A4 | A5 |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 1 | Z | Z | 0 | 1 |
