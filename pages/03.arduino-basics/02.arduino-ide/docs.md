@@ -17,7 +17,8 @@ Follow the steps to install and run your first program on ARBD1
 5. Select Processor as ATMEGA328P.
 6. Connect the Board with your Laptop using the USB Cable.
 7. Select the port.
-8. If the port doesn’t show up. You need to install USB driver. For more information check the link: [Arduino Drivers](https://www.arduino.cc/en/Guide/DriverInstallation).
-9. Try uploading the blank code on the board, if code still doesn’t get uploaded on the board, change the processor from “ATMEGA328P”  to “ATMEGA328P(old bootloader)”.
-10. Now you are ready to start your journey. :)
-11. For more information about Arduino IDE and software installation go to: [Arduino IDE Guide](https://www.arduino.cc/en/Guide)
+![Hatchnhack Arduino Board](Hatchnhack_Arduino_Board.PNG)
+9. If the port doesn’t show up. You need to install USB driver. For more information check the link: [Arduino Drivers](https://www.arduino.cc/en/Guide/DriverInstallation).
+10. Try uploading the blank code on the board, if code still doesn’t get uploaded on the board, change the processor from “ATMEGA328P”  to “ATMEGA328P(old bootloader)”.
+11. Now you are ready to start your journey. :)
+12. For more information about Arduino IDE and software installation go to: [Arduino IDE Guide](https://www.arduino.cc/en/Guide)
