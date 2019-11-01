@@ -31,7 +31,7 @@ void loop()
     delay(1000);                // wait for a second
 }
 ```
-1. To use the digital pin as an output we use the built-in function ```pinMode()```. As this is one-time work, we call ```pinMode()``` function in ```setup()``` function. Generally, we call ```pinMode()``` function in ```setup()``` until we want to change the mode of a pin in between the program.
+1. To use the digital pin as an output we use the built-in function ```pinMode()```. As this is one-time work, we call ```pinMode()``` function in `setup()` function. Generally, we call ```pinMode()``` function in ```setup()``` until we want to change the mode of a pin in between the program.
 2. To write the value on output pin(digital pin:11) we use ```digitalWrite()``` function.
 3. ```delay()``` is used to wait for a mentioned value in milliseconds.
 4. Both ```digitalWrite()``` and ```delay()``` are written in ```loop()``` function as we want to repeat the process again and again.
