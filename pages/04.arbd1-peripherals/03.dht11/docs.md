@@ -19,3 +19,34 @@ Further if you want to manually install the libraries, they can be downloaded us
 
 DHT Sensor Library: [Adafruit DHT Sensor](https://github.com/adafruit/DHT-sensor-library)
 Adafruit Unified Sensor Lib: [Adafruit Unified Sensor](https://github.com/adafruit/Adafruit_Sensor)
+
+```c
+#include "DHT.h"		//Include the DHT sensor library
+
+#define DHT_TYPE DHT11	//Define DHT sensor type
+#define DHT_PIN A0		//Define Pin connected to DHT sensor
+DHT dht(DHT_PIN, DHT_TYPE);
+
+void setup() {
+	Serial.begin(115200);
+    Serial.print(DHT_TYPE);
+    Serial.println(" Sensor Test");
+    dht.begin();
+}
+void loop(){
+	float h = dht.readHumidity();
+    float t = dht.readTemperature();
+    if(isnan(h) || isnan(t)){
+    	Serial.println("Error!! Reading from DHT sensor");
+        return;
+    }
+    Serial.println("===========================");
+    Serial.print(" Humidity : ");
+    Serial.print(h);
+    Serial.println(" %");
+    Serial.print(" Temperature : ");
+    Serial.print(t);
+    Serial.println(" °C");
+    Serial.println("===========================");
+}
+```
