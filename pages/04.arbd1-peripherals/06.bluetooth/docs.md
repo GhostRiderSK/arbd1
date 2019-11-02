@@ -1,5 +1,6 @@
 ---
 title: 'Bluetooth (HC-05)'
+media_order: Hatchnhack_Arduino_Hc05.png
 taxonomy:
     category:
         - docs
@@ -43,5 +44,6 @@ void loop(){
  }
 }
 ```
+![Hatchnhack_Arduino_HC05_Bluetooth_Mobile](Hatchnhack_Arduino_Hc05.png)
 ### Exercise :
 + Control Leds with a mobile app using bluetooth.
