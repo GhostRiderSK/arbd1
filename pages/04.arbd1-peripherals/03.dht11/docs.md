@@ -20,7 +20,7 @@ Further if you want to manually install the libraries, they can be downloaded us
 DHT Sensor Library: [Adafruit DHT Sensor](https://github.com/adafruit/DHT-sensor-library)
 Adafruit Unified Sensor Lib: [Adafruit Unified Sensor](https://github.com/adafruit/Adafruit_Sensor)
 
-```c#
+```c
 #include "DHT.h"		//Include the DHT sensor library
 
 #define DHT_TYPE DHT11	//Define DHT sensor type
