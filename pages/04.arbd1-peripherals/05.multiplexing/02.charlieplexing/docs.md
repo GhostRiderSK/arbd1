@@ -33,7 +33,7 @@ Following pin configurations are given to switch on any charlieplexed led
 Controlling the flashing rate of charliplexed leds using potentiometer on ARBD 1
 ```c
 const int CP[4] = {A2,A3,A4,A5};	//Charlieplexed LEDs Pinmap
-const int POT = A6;						   //Potentiometer Pin
+const int POT = A6;					//Potentiometer Pin
 char pattern[12][4] = {			// LEDs Pattern
   "ZZ01", //1
   "Z0Z1", //2
