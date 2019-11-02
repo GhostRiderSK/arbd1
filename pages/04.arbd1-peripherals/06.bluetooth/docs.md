@@ -44,6 +44,6 @@ void loop(){
  }
 }
 ```
-![Hatchnhack_Arduino_HC05_Bluetooth_Mobile](Hatchnhack_Arduino_Hc05.png)
+![Hatchnhack_Arduino_HC05_Bluetooth_Mobile](Hatchnhack_Arduino_Hc05.png?classes=caption "ARBD1 HC05 Interfacing")
 ### Exercise :
 + Control Leds with a mobile app using bluetooth.
