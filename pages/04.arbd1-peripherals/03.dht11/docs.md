@@ -15,6 +15,7 @@ To add these libraries goto Sketch > Include Libraries > Manage Libraries
 Search and install DHT sensor library and Adafruit Unified Sensor library.
 ![Hatchnhack_Arduino_Ide_Libraries_DHT11](Hatchnhack_Arduino_Ide_Libraries_DHT11.PNG?classes=caption "Arduino IDE Install DHT11 Library")
 ![Hatchnhack_Arduino_Ide_Libraries_Adafruit](Hatchnhack_Arduino_Ide_Libraries_Adafruit.PNG?classes=caption "Arduino IDE Install Adafruit Unified Sensor Library")
-Further if you want to manually install the libraries, they can be downloaded using the following links
-DHT Sensor Library: [](https://github.com/adafruit/DHT-sensor-library)
-Adafruit Unified Sensor Lib: [](https://github.com/adafruit/Adafruit_Sensor)
+Further if you want to manually install the libraries, they can be downloaded using the following links  
+
+DHT Sensor Library: [Adafruit DHT Sensor](https://github.com/adafruit/DHT-sensor-library)
+Adafruit Unified Sensor Lib: [Adafruit Unified Sensor](https://github.com/adafruit/Adafruit_Sensor)
