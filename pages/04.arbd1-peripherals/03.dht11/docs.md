@@ -43,10 +43,12 @@ void loop(){
     Serial.println("===========================");
     Serial.print(" Humidity : ");
     Serial.print(h);
-    Serial.println(" %");
+    Serial.println("%");
     Serial.print(" Temperature : ");
     Serial.print(t);
-    Serial.println(" °C");
+    Serial.print("\xC2\xB0");
+    Serial.println("C");  
     Serial.println("===========================");
+    delay(1000);
 }
 ```
